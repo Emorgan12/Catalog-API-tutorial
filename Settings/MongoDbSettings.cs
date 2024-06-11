@@ -11,7 +11,7 @@ namespace Catalog.Api.Settings
         {
             get
             {
-                return $"mongodb://{User}:{Password}@{Host}:{Port}?authsource=admin";
+                return $"mongodb://{Host}:{Port}";
             }
         }
     }
